@@ -59,6 +59,12 @@
       <type>war</type>
     </dependency>
 
+    <!-- weird problems on master..  -->
+    <dependency>
+      <groupId>org.uberfire</groupId>
+      <artifactId>uberfire-server</artifactId>
+    </dependency>
+    
     <!-- jms -->
     <dependency>
       <groupId>org.hornetq</groupId>
@@ -141,11 +147,6 @@
           <artifactId>resteasy-jaxrs</artifactId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.solder</groupId>
-      <artifactId>solder-impl</artifactId>
-      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.jbpm</groupId>

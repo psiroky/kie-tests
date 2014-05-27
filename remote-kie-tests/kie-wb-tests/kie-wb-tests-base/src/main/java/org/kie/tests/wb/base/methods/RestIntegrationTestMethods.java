@@ -178,7 +178,7 @@ public class RestIntegrationTestMethods extends AbstractIntegrationTestMethods {
 
     private long restCallDurationLimit = 2000;
 
-    private long sleep = 5000;
+    private long sleep = 10*1000;
 
 
     /**
